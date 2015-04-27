@@ -10,7 +10,9 @@ Build and running
 ========
 
 lauch the hello world program 
+
 ./sbt "run hello"
 
-launch graph extraction program (let the graph location be: /home/OpenData/graph_toulouse/Toulouse.osm)
-./sbt "run extract /home/OpenData/graph_toulouse/Toulouse.osm"
+launch graph extraction program (let /home/graph.osm be the graph location)
+
+./sbt "run extract /home/graph.osm"
